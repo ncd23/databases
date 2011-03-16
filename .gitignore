@@ -13,4 +13,5 @@
 .svn
 errors.err
 tags
-lessons/2011-03-09/app/tmp/*
+lessons/2011-03-09/store/app/tmp/**/*
+database.php
