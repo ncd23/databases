@@ -33,67 +33,7 @@
 	echo $this->Html->script('jquery-1.5.1');
 	echo $this->Html->script('jquery.jqia.selects');
 	echo $this->Html->script('jquery.jqia.termifier');
+	echo $this->Html->script('global');
 ?>
-    <script type="text/javascript">
-      $(function(){
-        $('#styleDropdown')
-          .change(function(){
-            var styleValue = $(this).val();
-            $('#detailsDisplay').load(
-              //'getDetails.jsp',
-			  'colors/colors_for_style',
-              { style: styleValue },
-              function(){
-                $('abbr').termifier({
-                  lookupResource: 'getTerm.jsp'
-                });
-              }
-            );
-            adjustColorDropdown();
-          })
-          .change();
-        $('#colorDropdown')
-          .change(function(){ adjustSizeDropdown();});
-      });
-
-      function adjustColorDropdown() {
-        var styleValue = $('#styleDropdown').val();
-        var dropdownSet = $('#colorDropdown');
-        if (styleValue.length == 0) {
-          dropdownSet.attr("disabled",true);
-          dropdownSet.emptySelect();
-          adjustSizeDropdown();
-        }
-        else {
-          dropdownSet.attr("disabled",false);
-          $.getJSON(
-			'colors/colors_for_style',
-            {style:styleValue},
-            function(data){
-              dropdownSet.loadSelect(data);
-              adjustSizeDropdown();
-            }
-          );
-        }
-      }
-
-      function adjustSizeDropdown() {
-        var styleValue = $('#styleDropdown').val();
-        var colorValue = $('#colorDropdown').val();
-        var dropdownSet = $('#sizeDropdown');
-        if ((styleValue.length == 0)||(colorValue.length == 0) ) {
-          dropdownSet.attr("disabled",true);
-          dropdownSet.emptySelect();
-        }
-        else {
-          dropdownSet.attr("disabled",false);
-          $.getJSON(
-			'sizes/sizes_for_style',
-            {style:styleValue,color:colorValue},
-            function(data){dropdownSet.loadSelect(data)}
-          );
-        }
-      }
-    </script>
   </body>
 </html>
