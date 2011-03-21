@@ -1,7 +1,7 @@
 ﻿<?
 class SizesController extends AppController {
 	var $components = array('RequestHandler');
-	//var $helpers = array('Js' => array('Jquery'));
+	var $helpers = array('Js' => array('Jquery'));
 	
 	function sizes_for_style($style=null) {
 		$this->layout = 'ajax';
@@ -17,7 +17,6 @@ class SizesController extends AppController {
 				'fields' => array('name','value')
 			));
 			$sizes = Set::extract('/Boot/id/../../Size',$sizes);
-//$this->log(print_r($sizes,true));
 			$this->set('sizes',utf8_encode(json_encode($sizes)));
 		} else {
 			header();

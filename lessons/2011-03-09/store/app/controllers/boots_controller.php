@@ -7,16 +7,13 @@ class BootsController extends AppController {
 	}
 	
 	function details($style = null) {
-debug('hi');
 		//make a json-like call which returns some html/xml
 		$this->layout = 'ajax';
 		if ( $this->RequestHandler->isAjax() ) {
 			Configure::write('debug',0);
 			$this->RequestHandler->setContent('json','application/json; charset=utf-8');
 			$item = $this->Boot->findById($style);
-			//$colors = Set::extract('/Boot/id/../../Color',$colors);
-$this->log(print_r($item,true));
-			$this->set('item',utf8_encode(json_encode($item)));
+			$this->set('item',$item);
 		} else {
 			header();
 			die();
