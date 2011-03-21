@@ -75,7 +75,7 @@ VALUES
 (6,'10ee','10 EE'),
 (7,'10eee','10 EEE'),
 (8,'13e','13 E');
-
+/*
 INSERT INTO store_boots_sizes (boot_id,size_id)
 VALUES
 (7141832,),
@@ -88,7 +88,7 @@ VALUES
 (),
 (),
 ();
-
+*/
 INSERT INTO store_boots_colors (boot_id,color_id)
 VALUES
 (7177382,1),
