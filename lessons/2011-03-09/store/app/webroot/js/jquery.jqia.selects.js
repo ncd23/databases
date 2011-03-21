@@ -5,14 +5,15 @@
 		});
 	}
 
-	$.fn.loadSelect = function(optionsDataArray) {
+	// creepy. uses obj parameter to access the JSON data it consumes.
+	$.fn.loadSelect = function(optionsDataArray,obj) {
 		return this.emptySelect().each(function(){
 			//TODO: get rid of the eval here
 			optionsDataArray = eval(optionsDataArray);
 			if (this.tagName=='SELECT') {
 				var selectElement = this;
 				$.each(optionsDataArray,function(index,optionData){
-					var option = new Option(optionData.Color.name, optionData.Color.value);
+					var option = new Option(optionData[obj].name, optionData[obj].value);
 					if ($.browser.msie) {
 						selectElement.add(option);
 					} else {

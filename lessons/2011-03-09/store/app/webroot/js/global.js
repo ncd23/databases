@@ -8,6 +8,7 @@ $(function(){
 		);
 		*/
 		adjustColorDropdown();
+		adjustSizeDropdown();
 	  })
 	  .change();
 	$('#colorDropdown')
@@ -26,7 +27,8 @@ function adjustColorDropdown() {
 		$.get(
 			'colors/colors_for_style/'+styleValue,
 			function(data) {
-				dropdownSet.loadSelect(data);
+				dropdownSet.loadSelect(data,'Color');
+				//adjustSizeDropdown();
 			},
 			'text'
 		);
@@ -43,10 +45,10 @@ function adjustSizeDropdown() {
 	}
 	else {
 		dropdownSet.attr("disabled",false);
-		$.getJSON(
-			'sizes/sizes_for_style',
-			{style:styleValue,color:colorValue},
-			function(data){dropdownSet.loadSelect(data)}
+		$.get(
+			'sizes/sizes_for_style/'+styleValue,
+			function(data){dropdownSet.loadSelect(data,'Size')},
+			'text'
 		);
 	}
 }

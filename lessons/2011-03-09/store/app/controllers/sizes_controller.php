@@ -1,23 +1,23 @@
 ﻿<?
-class ColorsController extends AppController {
+class SizesController extends AppController {
 	var $components = array('RequestHandler');
 	var $helpers = array('Js' => array('Jquery'));
 	
-	function colors_for_style($style=null) {
+	function sizes_for_style($style=null) {
 		$this->layout = 'ajax';
 		if ( $this->RequestHandler->isAjax() ) {
 			Configure::write('debug',0);
 			$this->RequestHandler->setContent('json','application/json; charset=utf-8');
-			$this->Color->contain(array(
+			$this->Size->contain(array(
 				'Boot' => array(
 					'conditions' => array('Boot.id'=>$style)
 				)
 			));
-			$colors = $this->Color->find('all',array(
+			$sizes = $this->Size->find('all',array(
 				'fields' => array('name','value')
 			));
-			$colors = Set::extract('/Boot/id/../../Color',$colors);
-			$this->set('colors',utf8_encode(json_encode($colors)));
+			$sizes = Set::extract('/Boot/id/../../Size',$sizes);
+			$this->set('sizes',utf8_encode(json_encode($sizes)));
 		} else {
 			header();
 			die();
