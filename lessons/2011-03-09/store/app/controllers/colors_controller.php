@@ -1,7 +1,7 @@
 ﻿<?
 class ColorsController extends AppController {
 	var $components = array('RequestHandler');
-	var $helpers = array('Js' => array('Jquery'));
+	//var $helpers = array('Js' => array('Jquery'));
 	
 	function colors_for_style($style=null) {
 		$this->layout = 'ajax';

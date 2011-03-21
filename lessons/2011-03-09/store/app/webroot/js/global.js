@@ -2,11 +2,9 @@ $(function(){
 	$('#styleDropdown')
 	  .change(function(){
 		var styleValue = $(this).val();
-		/*
 		$('#detailsDisplay').load(
-		  'colors/colors_for_style/'+styleValue
+		  'boots/details/'+styleValue
 		);
-		*/
 		adjustColorDropdown();
 		adjustSizeDropdown();
 	  })
