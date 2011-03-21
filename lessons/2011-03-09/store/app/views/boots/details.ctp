@@ -25,7 +25,7 @@ $this->log(print_r($item,true));
 <?
 if ($item.sku != '---') {
 ?>
-    <img id="itemPhoto" src="photos/<?= $item['Boot']['sku'] ?>.png"/>
+    <img id="itemPhoto" src="img/photos/<?= $item['Boot']['sku'] ?>.png"/>
 <?
 }
 ?>
