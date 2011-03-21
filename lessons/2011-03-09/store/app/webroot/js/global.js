@@ -1,8 +1,8 @@
 $(function(){
 	$('#styleDropdown')
 	  .change(function(){
-		/*
 		var styleValue = $(this).val();
+		/*
 		$('#detailsDisplay').load(
 		  'colors/colors_for_style/'+styleValue
 		);
@@ -18,20 +18,18 @@ function adjustColorDropdown() {
 	var styleValue = $('#styleDropdown').val();
 	var dropdownSet = $('#colorDropdown');
 	if (styleValue.length == 0) {
-	  dropdownSet.attr("disabled",true);
-	  dropdownSet.emptySelect();
-	  adjustSizeDropdown();
-	}
-	else {
-	  dropdownSet.attr("disabled",false);
-	  $.getJSON(
-		'colors/colors_for_style/'+styleValue,
-		function(data){
-			alert('success');
-			dropdownSet.loadSelect(data);
-			adjustSizeDropdown();
-		}
-	  );
+		dropdownSet.attr("disabled",true);
+		dropdownSet.emptySelect();
+		//adjustSizeDropdown();
+	} else {
+		dropdownSet.attr("disabled",false);
+		$.get(
+			'colors/colors_for_style/'+styleValue,
+			function(data) {
+				dropdownSet.loadSelect(data);
+			},
+			'text'
+		);
 	}
 }
 

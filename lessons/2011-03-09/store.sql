@@ -42,16 +42,16 @@ CREATE TABLE store_sizes (
 	value	VARCHAR(10)
 );
 
-INSERT INTO store_boots (id,name)
+INSERT INTO store_boots (id,name,height,lining,price,features)
 VALUES 
-('7177382', 'Caterpillar Tradesman Work Boot'),
-('7269643', 'Caterpillar Logger Boot'),
-('7141832', 'Chippewa 17" Engineer Boot'),
-('7141833', 'Chippewa 17" Snakeproof Boot'),
-('7173656', 'Chippewa 11" Engineer Boot'),
-('7141922', 'Chippewa Harness Boot'),
-('7141730', 'Danner Foreman Pro Work Boot'),
-('7257914', 'Danner Grouse GTX Boot');
+('7177382', 'Caterpillar Tradesman Work Boot','6 inches','Leather',87.00,'<abbr>Full-grain</abbr> <abbr>oil-tanned</abbr> leather. Nylon mesh lining. Ortholite sock liner. EVA midsole. T84V Rubberlon outsole.'),
+('7269643', 'Caterpillar Logger Boot','8 inches','<abbr>Cambrelle</abbr>',157.00,'<abbr>Full-grain</abbr> leather. <abbr>Cambrelle</abbr>&reg; lining. Steel safety toe. Electrical hazard protection. Poliyou&reg; cushion insole. Rubber lug outsole.'),
+('7141832', 'Chippewa 17" Engineer Boot','17 inches','Leather',187.00,'<abbr>Oil-tanned</abbr> or polishable <abbr>full-grain</abbr> leather uppers. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>. Padded insole. Steel safety toe.'),
+('7141833', 'Chippewa 17" Snakeproof Boot','17 inches','Leather',147.00,'<abbr>Full-grain</abbr> leather foot. 1000 Denier <abbr>Cordura</abbr> Viper cloth shaft. <abbr>Goodyear welt</abbr>. Leather Lining. Body Cushion Insole. <abbr>Vibram</abbr> Robinson Outsole.'),
+('7173656', 'Chippewa 11" Engineer Boot','11 inches','None',167.00,'<abbr>Oil-tanned</abbr> <abbr>full-grain</abbr> leather uppers. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>. Padded insole. Steel safety toe. Texon&reg; insole.'),
+('7141922', 'Chippewa Harness Boot','13 inches','Leather',187.00,'<abbr>Full-grain</abbr> leather uppers. Leather lining. <abbr>Vibram</abbr> sole. <abbr>Goodyear welt</abbr>.'),
+('7141730', 'Danner Foreman Pro Work Boot','10 inches','Leather',287.00,'Alkali-resistant <abbr>full-grain</abbr> leather. <abbr>Cambrelle</abbr> nylon lining. Fiberglass shank. <abbr>Vibram</abbr> 4014 Cristy sole. <abbr>Stitch-down</abbr> construction.'),
+('7257914', 'Danner Grouse GTX Boot','8 inches','<abbr>Gore-Tex</abbr>',207.00,'<abbr>Full-grain</abbr> leather foot. 1000 Denier <abbr>Cordura</abbr> Viper cloth shaft. <abbr>Gore-Tex</abbr> lining. Stich-down construction.');
 
 INSERT INTO store_colors (id,name,value)
 VALUES
