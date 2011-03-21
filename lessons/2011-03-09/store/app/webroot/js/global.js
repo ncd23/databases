@@ -3,7 +3,12 @@ $(function(){
 	  .change(function(){
 		var styleValue = $(this).val();
 		$('#detailsDisplay').load(
-		  'boots/details/'+styleValue
+		  'boots/details/'+styleValue,
+		                function(){
+                $('abbr').termifier({
+                  lookupResource: 'getTerm.jsp'
+                });
+              }
 		);
 		adjustColorDropdown();
 		adjustSizeDropdown();
@@ -37,16 +42,17 @@ function adjustSizeDropdown() {
 	var styleValue = $('#styleDropdown').val();
 	var colorValue = $('#colorDropdown').val();
 	var dropdownSet = $('#sizeDropdown');
-	if ((styleValue.length == 0)||(colorValue.length == 0) ) {
-		dropdownSet.attr("disabled",true);
-		dropdownSet.emptySelect();
-	}
-	else {
-		dropdownSet.attr("disabled",false);
-		$.get(
-			'sizes/sizes_for_style/'+styleValue,
-			function(data){dropdownSet.loadSelect(data,'Size')},
-			'text'
-		);
+	if (colorValue!=null) {
+		if ((styleValue.length == 0)||(colorValue.length == 0) ) {
+			dropdownSet.attr("disabled",true);
+			dropdownSet.emptySelect();
+		} else {
+			dropdownSet.attr("disabled",false);
+			$.get(
+				'sizes/sizes_for_style/'+styleValue,
+				function(data){dropdownSet.loadSelect(data,'Size')},
+				'text'
+			);
+		}
 	}
 }

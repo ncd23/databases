@@ -1,10 +1,7 @@
 ﻿<?
-// colors for boots, returns result as json 
-header('Content-type: application/json; charset=utf-8');
-echo $colors;
-?>
-<div>
-  <label>Item name:</label> <?= $item.name ?>
+$this->log(print_r($item,true));
+?><div>
+  <label>Item name:</label> <?= $item['Boot']['name'] ?>
 </div>
 <div>
   <label>SKU:</label> <?= $item.sku ?>
