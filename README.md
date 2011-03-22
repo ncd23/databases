@@ -1,3 +1,3 @@
-#Hello, 
+#Hello,
 
-# this was added from pubmo
+#Editing from new mini-10
