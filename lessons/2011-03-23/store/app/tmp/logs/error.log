@@ -31,3 +31,20 @@
 
 )
 
+2011-03-25 16:02:36 Error: 
+2011-03-25 16:02:41 Error: Array
+(
+    [Boot] => Array
+        (
+            [id] => 7141832
+            [name] => Chippewa 17" Engineer Boot
+            [sku] => 
+            [height] => 
+            [lining] => 
+            [colors] => 
+            [price] => 
+            [features] => 
+        )
+
+)
+
