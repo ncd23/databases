@@ -48,3 +48,19 @@
 
 )
 
+2011-03-25 16:13:20 Error: Array
+(
+    [Boot] => Array
+        (
+            [id] => 7177382
+            [name] => Caterpillar Tradesman Work Boot
+            [sku] => 
+            [height] => 
+            [lining] => 
+            [colors] => 
+            [price] => 
+            [features] => 
+        )
+
+)
+
