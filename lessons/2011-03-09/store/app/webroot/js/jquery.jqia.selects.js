@@ -7,6 +7,7 @@
 
 	// creepy. uses obj parameter to access the JSON data it consumes.
 	$.fn.loadSelect = function(optionsDataArray,obj) {
+	console.log('in loadSelect');
 		return this.emptySelect().each(function(){
 			//TODO: get rid of the eval here
 			optionsDataArray = eval(optionsDataArray);

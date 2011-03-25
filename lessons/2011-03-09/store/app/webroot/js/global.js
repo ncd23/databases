@@ -27,13 +27,16 @@ function adjustColorDropdown() {
 		//adjustSizeDropdown();
 	} else {
 		dropdownSet.attr("disabled",false);
-		$.get(
+		$.getJSON(
+		//$.get(
 			'colors/colors_for_style/'+styleValue,
 			function(data) {
+				console.log(data);
+				//console.log($.parseJSON(data));
 				dropdownSet.loadSelect(data,'Color');
 				//adjustSizeDropdown();
-			},
-			'text'
+			}//,
+			//'text'
 		);
 	}
 }
