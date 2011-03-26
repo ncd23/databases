@@ -13,5 +13,6 @@
 .svn
 errors.err
 tags
-lessons/2011-03-09/store/app/tmp/**/*
+lessons/2011-03-23/store/app/tmp/**/*
 database.php
+.gitignore
