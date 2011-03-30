@@ -26,6 +26,6 @@ $row1 = $result->fetchRow();
 Runtime 1: <?=$runtime1?><br/>
 Runtime 2: <?=$runtime2?><br/>
 <br/>
-Count: <?=$rowCnt?>
+Count: <?=$rowCnt?><br/>
 Row: <?print_r($row1)?>
 </html>
