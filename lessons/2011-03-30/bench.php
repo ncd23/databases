@@ -18,6 +18,8 @@ class MySQL{
 			if(!$value){
 				throw new Exception('Invalid parameter '.$parameter);
 			}
+			// below is usage of variable variable as well as complex curly brace syntax
+			// see http://bit.ly/hNf5CU and http://bit.ly/fcJa5Z for info
 			$this->{$parameter}=$value;
 		}
 		$this->connectDB();
