@@ -5,3 +5,7 @@ Note this:
 Seems to show that we have a relational constraint that will cascade deletes
 
 Noted this in phpMyAdmin when looking at the salaries table
+
+Sample database with test suite in Launchpad http://bit.ly/i98IrQ
+
+The actual sample db data (bzip): http://bit.ly/eLSAlr

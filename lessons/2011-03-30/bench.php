@@ -1,6 +1,7 @@
 <?
-// define 'MySQL' class
+// This benchmarking class was cribbed from here: http://bit.ly/gF7L6F
 
+// define 'MySQL' class
 class MySQL{
 	private $conId;
 	private $host = 'localhost';
