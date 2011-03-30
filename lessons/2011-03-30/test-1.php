@@ -10,12 +10,13 @@ $db = new MySQL(array(
 ));
 $timer = new Timer();
 $timer->start();  
-$result = $db->('SELECT * FROM salaries ORDER BY salary LIMIT 10');
+$result = $db->query('SELECT * FROM salaries ORDER BY salary LIMIT 10');
 $runtime1 = $timer->stop();
 
 $timer = new Timer();
 $timer->start();  
-$result = $db->('SELECT * FROM salaries WHERE emp_no=10001');
+// after deleting employee 10001 accessing the $result->countRows() throws an exception
+$result = $db->query('SELECT * FROM salaries WHERE emp_no=10002');
 $runtime2 = $timer->stop();
 
 //then we can do things like
