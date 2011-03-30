@@ -31,11 +31,16 @@
 
 )
 
+<<<<<<< HEAD
 2011-03-26 01:38:31 Warning: Warning (2): include_once(/home/the0ther/databases/lessons/2011-03-23/store/app/config/database.php) [http://php.net/function.include-once]: failed to open stream: No such file or directory in [/home/the0ther/databases/lessons/2011-03-23/store/cake/libs/model/connection_manager.php, line 23]
 2011-03-26 01:38:31 Warning: Warning (2): include_once() [http://php.net/function.include]: Failed opening '/home/the0ther/databases/lessons/2011-03-23/store/app/config/database.php' for inclusion (include_path='/home/the0ther/databases/lessons/2011-03-23/store:/home/the0ther/databases/lessons/2011-03-23/store/app/:.:/usr/share/php:/usr/share/pear') in [/home/the0ther/databases/lessons/2011-03-23/store/cake/libs/model/connection_manager.php, line 23]
 2011-03-26 01:38:31 Error: Fatal Error (256): ConnectionManager::getDataSource - Non-existent data source default in [/home/the0ther/databases/lessons/2011-03-23/store/cake/libs/model/connection_manager.php, line 102]
 2011-03-26 01:39:25 Error: 
 2011-03-26 01:39:31 Error: Array
+=======
+2011-03-25 16:02:36 Error: 
+2011-03-25 16:02:41 Error: Array
+>>>>>>> 5211c9622037d7688cb330989da228caeae85118
 (
     [Boot] => Array
         (
@@ -51,7 +56,11 @@
 
 )
 
+<<<<<<< HEAD
 2011-03-26 01:39:37 Error: Array
+=======
+2011-03-25 16:13:20 Error: Array
+>>>>>>> 5211c9622037d7688cb330989da228caeae85118
 (
     [Boot] => Array
         (
@@ -67,3 +76,9 @@
 
 )
 
+<<<<<<< HEAD
+=======
+2011-03-25 16:38:14 Error: 
+2011-03-25 16:59:56 Error: 
+2011-03-25 20:53:42 Error: 
+>>>>>>> 5211c9622037d7688cb330989da228caeae85118
