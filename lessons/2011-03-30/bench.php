@@ -3,10 +3,10 @@
 
 class MySQL{
 	private $conId;
-	private $host;
-	private $user;
-	private $password;
-	private $database;
+	private $host = 'localhost';
+	private $user = 'root';
+	private $password = 'br00klyn';
+	private $database = 'loffelmr';
 	private $result;
 	const OPTIONS=4;
 
