@@ -1,7 +1,7 @@
 # Week 1
 
 * Setup EC2 Server
-	* Create account
+	* [/lessons/create-account.html](Create account)
 	* Create keys
 	* Install the following
 		* any updates
