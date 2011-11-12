@@ -1,7 +1,7 @@
 # Week 1
 
 * Setup EC2 Server
-	* [/lessons/create-account.html](Create account)
+	* [](Create account)
 	* Create keys (Public key cryptography as an aside)
 	* Install the following
 		* any updates
