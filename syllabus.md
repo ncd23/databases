@@ -25,3 +25,7 @@ This week will be introduction to databases.
 * Basic design principle is DRY
 * Install the sample database
 * SQL Homework 1
+
+# Week 3
+
+# Week 4
