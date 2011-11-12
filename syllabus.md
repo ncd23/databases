@@ -2,7 +2,7 @@
 
 * Setup EC2 Server
 	* [/lessons/create-account.html](Create account)
-	* Create keys
+	* Create keys (Public key cryptography as an aside)
 	* Install the following
 		* any updates
 		* lamp
@@ -11,7 +11,10 @@
 		* git
 		* srm.sh
 
+* [http://www.cs.washington.edu/education/courses/cse190m/07sp/lectures/slides/01-internet.html] (Web Architecture)
+		
 * Linux Tutorial
+	
 	
 
 # Week 2
