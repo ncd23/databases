@@ -53,7 +53,7 @@ echo "deb http://security.ubuntu.com/ubuntu maverick-security multiverse" >> /et
 # APACHE MODIFICATIONS
 #
 ########
-sudo a2enmod rewrite;
+1sudo a2enmod rewrite;
 sudo a2enmod ssl;
 
 
@@ -71,4 +71,3 @@ sudo a2enmod ssl;
 # Now you can use this same key in Github and other places seamlessly. 
 #
 ################
-

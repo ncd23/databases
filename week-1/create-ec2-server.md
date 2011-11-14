@@ -20,7 +20,7 @@
 
 16) Select __Create a new Keypair__
 
-17) Enter a name for the new key pair. Click __Create & Download your Key Pair__. Save this file, and __Make a Backup__ on Dropbox or send yourself an email with this file.
+17) Enter a name for the new key pair. Click __Create & Download your Key Pair__. Save this file (with file extension _.pem_), and __Make a Backup__ on Dropbox or send yourself an email with this file.
 
 18) Using the keyfile differs depending on your OS. On Mac you can pass an argument to ssh. The same is true for Linux. On Windows you will need to use Pageant and PuTTy.
 
@@ -42,7 +42,11 @@
 
 4) You will now be able to contact your server through your browser. Enter the IP for the instance into a browser and confirm that you have the Apache default page...__It works!__. The webroot is `/var/www`, and you can modify the index.html file with the nano editor using `sudo nano /var/www/index.html` and making a change, saving, and refreshing your browser.
 
-5) `apt-get install xorg gnome-core gdm gnome-applets gnome-system-tools gnome-utils ubuntu-artwork compiz-gnome firefox sysv-rc-conf`. This installs basic desktop GUI support.
+5) `sudo apt-get install ubuntu-desktop –no-install-recommends`. This installs basic desktop GUI support.
+
+6) `sudo apt-get install indicator-applet-complete indicator-applet`
+
+7) `sudo apt-get install chromium-browser`
 
 6) `sudo add-apt-repository ppa:freenx-team`
 
