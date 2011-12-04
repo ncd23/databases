@@ -8,7 +8,7 @@
 
 10) After you have signed up, go to [http://alestic.com] (alestic.com) and click on "us-east-1" under the _Ubuntu AMIs_ header. 
 
-11) Select the _Ubuntu 11.04 Natty EBS boot_ instance by clicking [aws-launch-13x15.png](the orange triangle), which will open a link in AWS launching a new instance.
+11) Select the _Ubuntu 10.04 LTS Lucid EBS boot_ instance by clicking [aws-launch-13x15.png](the orange triangle), which will open a link in AWS launching a new instance.
 
 12) Select Continue
 
@@ -68,6 +68,9 @@
 "AllowUser root ubuntu nx", and set ChallengeResponseAuthentication to
 yes. Then restart the ssh server with `sudo service ssh
 restart`
+
+13) Change the password for the ubuntu user: `sudo passwd ubuntu`.
+Follow the prompts.
 
 8) `sudo apt-get install git-core curl build-essential openssl libssl-dev`
 
