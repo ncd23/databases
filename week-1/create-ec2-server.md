@@ -64,6 +64,10 @@
 
 11) `sudo /usr/lib/nx/nxsetup --install`. Select No when asked if you want to use custom keys. _Note_: this is a less-secure option, but for our purposes is probably sufficient.
 
+12) `sudo nano /etc/ssh/sshd_config` and add the following to the top:
+"AllowUser root ubuntu nx", and set ChallengeResponseAuthentication to
+yes. Then restart the ssh server with `sudo service ssh
+restart`
 
 8) `sudo apt-get install git-core curl build-essential openssl libssl-dev`
 
@@ -80,3 +84,6 @@
 4) Select _Unix_, then select __Custom__ from the dropdowns. In the __Settings__ dialog, provide the following text for __Run the following command__ `gnome-session --session=2d-gnome`. Click through the last step.
 
 5) You'll get a dialog box asking you for _Login_ and _Password_. For _Login_ use nx, and use your key file password for password.
+
+# Notes
+For help with multiple ssh keys, [http://www.karan.org/blog/index.php/2009/08/25/multiple-ssh-private-keys] (see here).
