@@ -42,7 +42,7 @@
 
 4) You will now be able to contact your server through your browser. Enter the IP for the instance into a browser and confirm that you have the Apache default page...__It works!__. The webroot is `/var/www`, and you can modify the index.html file with the nano editor using `sudo nano /var/www/index.html` and making a change, saving, and refreshing your browser.
 
-5) `sudo apt-get install ubuntu-desktop –no-install-recommends`. This installs basic desktop GUI support.
+5) `sudo apt-get install ubuntu-desktop --no-install-recommends`. This installs basic desktop GUI support.
 
 6) `sudo apt-get install indicator-applet-complete indicator-applet`
 
