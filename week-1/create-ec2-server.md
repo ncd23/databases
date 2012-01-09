@@ -8,7 +8,7 @@
 
 10) After you have signed up, go to [http://alestic.com] (alestic.com) and click on "us-east-1" under the _Ubuntu AMIs_ header. 
 
-11) Select the _Ubuntu 11.04 Natty EBS boot_ instance by clicking [aws-launch-13x15.png](the orange triangle), which will open a link in AWS launching a new instance.
+11) Select the _Ubuntu 10.04 LTS Lucid EBS boot_ instance by clicking [aws-launch-13x15.png](the orange triangle), which will open a link in AWS launching a new instance.
 
 12) Select Continue
 
@@ -42,7 +42,7 @@
 
 4) You will now be able to contact your server through your browser. Enter the IP for the instance into a browser and confirm that you have the Apache default page...__It works!__. The webroot is `/var/www`, and you can modify the index.html file with the nano editor using `sudo nano /var/www/index.html` and making a change, saving, and refreshing your browser.
 
-5) `sudo apt-get install ubuntu-desktop –no-install-recommends`. This installs basic desktop GUI support.
+5) `sudo apt-get install ubuntu-desktop --no-install-recommends`. This installs basic desktop GUI support.
 
 6) `sudo apt-get install indicator-applet-complete indicator-applet`
 
@@ -64,6 +64,13 @@
 
 11) `sudo /usr/lib/nx/nxsetup --install`. Select No when asked if you want to use custom keys. _Note_: this is a less-secure option, but for our purposes is probably sufficient.
 
+12) `sudo nano /etc/ssh/sshd_config` and add the following to the top:
+"AllowUser root ubuntu nx", and set ChallengeResponseAuthentication to
+yes. Then restart the ssh server with `sudo service ssh
+restart`
+
+13) Change the password for the ubuntu user: `sudo passwd ubuntu`.
+Follow the prompts.
 
 8) `sudo apt-get install git-core curl build-essential openssl libssl-dev`
 
@@ -80,3 +87,6 @@
 4) Select _Unix_, then select __Custom__ from the dropdowns. In the __Settings__ dialog, provide the following text for __Run the following command__ `gnome-session --session=2d-gnome`. Click through the last step.
 
 5) You'll get a dialog box asking you for _Login_ and _Password_. For _Login_ use nx, and use your key file password for password.
+
+# Notes
+For help with multiple ssh keys, [http://www.karan.org/blog/index.php/2009/08/25/multiple-ssh-private-keys] (see here).
