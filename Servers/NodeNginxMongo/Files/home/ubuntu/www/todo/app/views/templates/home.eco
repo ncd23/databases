@@ -1,12 +1,13 @@
-<!-- START you can remove this -->
-<div id="content">
-  <h1>brunch</h1>
-  <h2>Welcome!</h2>
-  <ul>
-    <li><a href="http://brunch.io/#documentation">Documentation</a></li>
-    <li><a href="https://github.com/brunch/brunch/issues">Github Issues</a></li>
-    <li><a href="https://github.com/brunch/example-todos">Todos Example App</a></li>
-  </ul>
-	<p>what you lookin at fool?</p>
+<div id="todo-app">
+  <h1>Todos</h1>
 </div>
-<!-- END you can remove this -->
+<ul id="instructions">
+  <li>Double-click to edit a todo.</li>
+  <!-- <li><a href="../docs/todos.html">View the annotated source.</a></li> -->
+</ul>
+<div id="credits">
+  <span>Originally created by</span>
+  <a href="http://jgn.me/">J&eacute;r&ocirc;me Gravel-Niquet</a>
+  <span>Rewritten by</span>
+  <a href="https://github.com/brunch">Brunch Team</a>
+</div>

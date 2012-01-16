@@ -1,8 +1,7 @@
 class exports.MainRouter extends Backbone.Router
   routes :
-    '': 'home',
-    '/blog': 'blog'
+    '': 'home'
+
   home: ->
-    $('body').html app.homeView.render().el
-  blog: ->
-    $('body').html app.blogView.render().el
+    app.views.home.render()
+    app.todoList.fetch()
