@@ -82,6 +82,9 @@ Really HTML5 is made up of three parts:
 * Well-formatted
 * UTF-8 Encoding
 * Line-ending (Mac/PC/Unix)
+* Selector
+* Element
+* Attribute
 
 ### Resources
 
@@ -101,8 +104,15 @@ Really HTML5 is made up of three parts:
 ## Javascript
 
 
-
-
+### Terms
+* Expression
+* Statement
+* Variable
+* Function
+* Comparison vs Setting value 
+* Token
+* Event-driven
+* [Immediate Invoked Function Expression] (http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
 
 
 
