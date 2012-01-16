@@ -16,3 +16,4 @@ tags
 lessons/2011-03-09/store/app/tmp/**/*
 database.php
 .sass-cache
+.log
