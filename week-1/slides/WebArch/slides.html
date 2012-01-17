@@ -27,7 +27,7 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h1>Web Architecture</h1>
+        <h1>Part 1: Web Architecture</h1>
         
         <h2>loffelmr@newschool.edu</h2>
       </div>
@@ -70,8 +70,7 @@
         </ul>
         
         
-        <p>DNS is what matches domain names such as [example.com]
-        (http://example.com) to IP addresses.</p>
+        <p>DNS is what matches domain names such as <a href="http://example.com">example.com</a> to IP addresses.</p>
       </div>
       <div class='spacer bottom'></div>
     </section>
@@ -106,6 +105,134 @@
       <div class='spacer top'></div>
       <div class='content'>
         <p>GET and POST should be familiar to most. DELETE is more obscure.</p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h1>Part 2: Linux</h1>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Why Linux?</h2>
+        
+        <ol>
+        <li>In the form of Unix, it has been around for thirty years.</li>
+        <li>This makes it reliable, there are no secrets as to how it works.</li>
+        <li>It is free and under no one person's control (any longer) soooooooo.</li>
+        <li>Linux is a de-facto standard.</li>
+        </ol>
+        
+        
+        <p>The command line is more expressive. Developing software is largely
+        concerned with moving files around and editing them. There are things
+        you can do with files on a command line that are available through a
+        GUI.</p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h2>Cheatsheet:</h2>
+        
+        <p>Available for Download here in these formats:
+        <a href="https://github.com/the0ther/databases/tree/master/week-1/linux-cheatsheet.md">Markdown</a></p>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Moving around in the file system</h3>
+        
+        <ul>
+        <li><code>pwd</code> "Print working directory" - show what dir you're in.</li>
+        <li><code>ls</code>  List the contents of a dir.</li>
+        <li><code>ls -l</code>   List the contents of a dir and show additional info of the files.</li>
+        <li><code>ls -a</code>   List all files, including hidden files.</li>
+        <li><code>cd</code>  Change directory.</li>
+        <li><code>cd ..</code>   Go to the parent directory.</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Examining files</h3>
+        
+        <ul>
+        <li><code>file</code>    Determine the type of a file.</li>
+        <li><code>cat</code> Concatenate a file.</li>
+        <li><code>less</code>    View text files and paginate them if needed.</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Manipulating files and directories</h3>
+        
+        <ul>
+        <li><code>cp</code>  Copy a file.</li>
+        <li><code>cp -i</code>   Copy a file and ask before overwriting.</li>
+        <li><code>cp -r</code>   Copy a directory with its contents.</li>
+        <li><code>mv</code>  Move or rename a file.</li>
+        <li><code>mv -i</code>   Move or rename a file and ask before overwriting.</li>
+        <li><code>srm</code> Safely remove a file, moving it to ~/.Trash (requires install)</li>
+        <li><code>rm</code>  Remove a file.</li>
+        <li><code>rm -r</code>   Remove a directory with its contents.</li>
+        <li><code>rm -i</code>   Ask before removing a file. Good to use with the -r option.</li>
+        <li><code>mkdir</code>   Make a directory.</li>
+        <li><code>rmdir</code>   Remove an empty directory.</li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Wizardry</h3>
+        
+        <ul>
+        <li><code>grep</code> Searches for a term that you pass. Can pipe input in or name a
+        file (with wildcars).</li>
+        <li><code>sudo</code> Run command as root user (Debian/Ubuntu)</li>
+        <li>Job Control
+        
+        <ul>
+        <li><code>ps</code> List running processes</li>
+        <li><code>Ctrl-z</code> Send process to the background</li>
+        <li><code>fg</code> Bring background process to the front</li>
+        </ul>
+        </li>
+        <li>Input/Output
+        
+        <ul>
+        <li><code>&gt;</code> Sends output of most any command to a file named after the <code>&gt;</code></li>
+        <li>'>>' Appends the output of previous command to a file named after
+        the <code>&gt;&gt;</code></li>
+        <li><code>|</code> Pipes the output of one command into another. <code>cat some-file |
+        grep 'search-term'</code> gets output of a file and sends it through grep</li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+      <div class='spacer bottom'></div>
+    </section>
+    <section class='slide'>
+      <div class='spacer top'></div>
+      <div class='content'>
+        <h3>Bash/Zsh</h3>
+        
+        <p>If you want to learn more about Bash scripting you <a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html">should start
+        here</a>.</p>
       </div>
       <div class='spacer bottom'></div>
     </section>
