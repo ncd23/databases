@@ -1,122 +1,23 @@
 <?php
-/**
- * This is core configuration file.
- *
- * Use it to configure core behavior of Cake.
- *
- * PHP 5
- *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright 2005-2011, Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.Config
- * @since         CakePHP(tm) v 0.2.9
- * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
- */
-
-/**
- * CakePHP Debug Level:
- *
- * Production Mode:
- * 	0: No error messages, errors, or warnings shown. Flash messages redirect.
- *
- * Development Mode:
- * 	1: Errors and warnings shown, model caches refreshed, flash messages halted.
- * 	2: As in 1, but also with full debug messages and SQL output.
- *
- * In production mode, flash messages redirect after a time interval.
- * In development mode, you need to click the flash message to continue.
- */
 	Configure::write('debug', 2);
 
-/**
- * Configure the Error handler used to handle errors for your application.  By default
- * ErrorHandler::handleError() is used.  It will display errors using Debugger, when debug > 0
- * and log errors with CakeLog when debug = 0.
- *
- * Options:
- *
- * - `handler` - callback - The callback to handle errors. You can set this to any callback type,
- *    including anonymous functions.
- * - `level` - int - The level of errors you are interested in capturing.
- * - `trace` - boolean - Include stack traces for errors in log files.
- *
- * @see ErrorHandler for more information on error handling and configuration.
- */
 	Configure::write('Error', array(
 		'handler' => 'ErrorHandler::handleError',
 		'level' => E_ALL & ~E_DEPRECATED,
 		'trace' => true
 	));
 
-/**
- * Configure the Exception handler used for uncaught exceptions.  By default,
- * ErrorHandler::handleException() is used. It will display a HTML page for the exception, and
- * while debug > 0, framework errors like Missing Controller will be displayed.  When debug = 0,
- * framework errors will be coerced into generic HTTP errors.
- *
- * Options:
- *
- * - `handler` - callback - The callback to handle exceptions. You can set this to any callback type,
- *   including anonymous functions.
- * - `renderer` - string - The class responsible for rendering uncaught exceptions.  If you choose a custom class you
- *   should place the file for that class in app/Lib/Error. This class needs to implement a render method.
- * - `log` - boolean - Should Exceptions be logged?
- *
- * @see ErrorHandler for more information on exception handling and configuration.
- */
 	Configure::write('Exception', array(
 		'handler' => 'ErrorHandler::handleException',
 		'renderer' => 'ExceptionRenderer',
 		'log' => true
 	));
 
-/**
- * Application wide charset encoding
- */
 	Configure::write('App.encoding', 'UTF-8');
 
-/**
- * To configure CakePHP *not* to use mod_rewrite and to
- * use CakePHP pretty URLs, remove these .htaccess
- * files:
- *
- * /.htaccess
- * /app/.htaccess
- * /app/webroot/.htaccess
- *
- * And uncomment the App.baseUrl below:
- */
-	//Configure::write('App.baseUrl', env('SCRIPT_NAME'));
-
-/**
- * Uncomment the define below to use CakePHP prefix routes.
- *
- * The value of the define determines the names of the routes
- * and their associated controller actions:
- *
- * Set to an array of prefixes you want to use in your application. Use for
- * admin or other prefixed routes.
- *
- * 	Routing.prefixes = array('admin', 'manager');
- *
- * Enables:
- *	`admin_index()` and `/admin/controller/index`
- *	`manager_index()` and `/manager/controller/index`
- *
- */
 	//Configure::write('Routing.prefixes', array('admin'));
 
-/**
- * Turn off all caching application-wide.
- *
- */
-	//Configure::write('Cache.disable', true);
+	Configure::write('Cache.disable', true);
 
 /**
  * Enable cache checking.
