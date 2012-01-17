@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h1>Index of todo</h1>
+</div>
+
+<% todos.forEach(function (todo) { %>
+<div class="row">
+  <div class="span-two-thirds">
+    todo #<%= todo.id %>
+  </div>
+  <div class="span-one-third">
+    <%- link_to('Edit', path_to.edit_todo(todo), {class: 'btn primary'}) %>
+    <%- link_to('Delete', path_to.todo(todo), {class: 'btn danger', method: 'delete', remote: true, jsonp: '(function (u) {location.href = u;})'}) %>
+  </div>
+</div>
+<% }); %>
+
+<hr/>
+
+<div class="well">
+  <%- link_to('New todo', path_to.new_todo, {class: 'btn'}) %>
+</div>
