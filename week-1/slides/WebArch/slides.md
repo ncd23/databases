@@ -15,10 +15,6 @@
 ### There can be only one (acronym)!
 
 
-!NOTES
-
- * a note
-
 
 
 !SLIDE
