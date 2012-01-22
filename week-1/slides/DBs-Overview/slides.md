@@ -18,9 +18,19 @@ It is _not_ a Database Management System!
 
 The actual data. An instance. Often identified and accessed by a URL.
 
-### What is a Database Management System (DBMS)?
+
+
+!SLIDE
+
+
+## Database Management Systems
 
 A _DBMS_ is the implementation of a database. A _DBMS_ is the system which supports all aspects of database usage. 
+
+}}} images/mysql-administrator-1.jpg
+
+
+
 
 To make discussion of the topic easier, the two terms are often rolled up into the single term _database_.
 
@@ -67,8 +77,12 @@ Today there are two main types of models which are followed
 
 The relational style is dominant and ubiquitous. Databases in this style include all the major databases:
 
-* MySQL
-
+* [http://mysql.com](MySQL)
+* [http://microsoft.com/sqlserver](MS SQL Server)
+* [http://sqlite.org](SQLLite)
+* [http://ibm.com/db2](DB2)
+* [http://oracle.com](Oracle)
+* [http://postgresql.org](Postgre SQL)
 
 !NOTES
 
