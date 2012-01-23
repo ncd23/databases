@@ -8,7 +8,7 @@
 
 
 
-!SLIDE
+!SLIDE left
 
 ## What is a Database
 
@@ -20,7 +20,7 @@ The actual data. An instance. Often identified and accessed by a URL.
 
 
 
-!SLIDE
+!SLIDE left
 
 
 ## Database Management Systems
@@ -38,7 +38,7 @@ To make discussion of the topic easier, the two terms are often rolled up into t
 
 
 
-!SLIDE
+!SLIDE left
 
 ## What is in a database?
 
@@ -52,7 +52,7 @@ Some DBs store binary data as well, such as pictures and audio/video files. The 
 
 
 
-!SLIDE 
+!SLIDE left
 
 ## What does it do?
 
@@ -66,7 +66,7 @@ The full scope and lifecycle of a database often involves all of the following:
 
 
 
-!SLIDE
+!SLIDE left long-list
 
 ## Modeling
 
@@ -77,19 +77,24 @@ Today there are two main types of models which are followed
 
 The relational style is dominant and ubiquitous. Databases in this style include all the major databases:
 
-* [http://mysql.com](MySQL)
-* [http://microsoft.com/sqlserver](MS SQL Server)
-* [http://sqlite.org](SQLLite)
-* [http://ibm.com/db2](DB2)
-* [http://oracle.com](Oracle)
-* [http://postgresql.org](Postgre SQL)
-
-!NOTES
-
-If you want to read more about the origin of the Relational Model, there is a famous academic paper by Codd.
 
 
-!SLIDE 
+
+!SLIDE
+
+# Relational DBs
+
+* [MySQL](http://mysql.com)
+* [MS SQL Server](http://microsoft.com/sqlserver)
+* [SQLLite](http://sqlite.org)
+* [DB2](http://ibm.com/db2)
+* [Oracle](http://oracle.com)
+* [Postgre SQL](http://postgresql.org)
+
+If you want to read more about the origin of the Relational Model, there is [a famous academic paper by E.F. Codd](http://www.seas.upenn.edu/~zives/03f/cis550/codd.pdf).
+
+
+!SLIDE left
 
 ### Object model
 
@@ -97,9 +102,23 @@ The original idea was that an object-modeled database would be a closer fit for 
 
 
 
-!SLIDE
+!SLIDE left
+
+### Database Languages
+
+SQL is the 2000 pound gorilla. 
+
+```
+SELECT firstName, lastName FROM Persons WHERE lastName LIKE 'Smi%';
+```
+
+}}} images/grape-ape.jpg
+
+
+
+!SLIDE left
 
 ## Further Info
 
-* [http://en.wikipedia.org/wiki/Database](Database - Wikipedia)
+* [Database - Wikipedia](http://en.wikipedia.org/wiki/Database)
 * 

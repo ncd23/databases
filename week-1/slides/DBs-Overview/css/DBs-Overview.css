@@ -22,3 +22,10 @@ section.slide {
 	background-origin: content-box;
 }
 */
+section.slide.deck-current.long-list ul {
+	list-style-type: none;
+	display: inline;
+}
+section.slide.deck-current.long-list li {
+	margin: 10px 35px;
+}

@@ -5,6 +5,7 @@
 *.swo
 *.swp
 *.vi
+*.psd
 *~
 .DS_Store
 .cache
