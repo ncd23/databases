@@ -118,7 +118,7 @@ Git Client: Github (Mac) or [msysgit](http://code.google.com/p/msysgit/) (Window
 
 !NOTES
 
-  * [In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html) by Neal Stephenson
+
 
 
 
@@ -285,4 +285,4 @@ For more on Git read the [tutorial on Github](http://help.github.com/).
 ## Reading Assignment
 
 * [Front End Code Standards & Best Practices](http://na.isobar.com/standards/)
-* []()
+* [In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html) by Neal Stephenson
