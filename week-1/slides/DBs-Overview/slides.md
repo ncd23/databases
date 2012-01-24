@@ -118,7 +118,61 @@ SELECT firstName, lastName FROM Persons WHERE lastName LIKE 'Smi%';
 
 !SLIDE left
 
+### Architecture
+
+* External
+	* UI
+	* API
+	* Language processor
+* Conceptual
+	* Query optimizer/Indexing
+	* Database engine
+	* Transaction engine
+* Internal
+	* Storage engine (disk/RAM)
+	* DBMS management & operation
+	
+	
+!SLIDE left
+
+### Transactions
+
+#### ACID rule	
+* Atomicity
+* Consistency
+* Isolation
+* Durability
+	
+	
+
+!SLIDE left
+
+### Security & Access Control
+
+Most DBMS have a user management subsystem.
+
+
+
+!SLIDE left
+
+### Design
+
+* Entities and relationships
+
+* Database normalization
+
+
+
+
+
+
+!SLIDE left
+
 ## Further Info
 
 * [Database - Wikipedia](http://en.wikipedia.org/wiki/Database)
+* [Relational Model - Wikipedia](http://en.wikipedia.org/wiki/Relational_model#Relational_model_topics)
+* [Object Model - Wikipedia](http://en.wikipedia.org/wiki/Object_model)
+* [Inverted index](http://en.wikipedia.org/wiki/Inverted_index)
+* [Entity-relationship Model](http://en.wikipedia.org/wiki/Entity-relationship_model)
 * 
