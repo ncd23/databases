@@ -104,8 +104,8 @@ body {
       -webkit-box-pack: start;
       -ms-box-pack: start;
       box-pack: start; }
-      .keydown.deck-container .slide.full-background.temp {
-        background-image: url(../images/temp.jpg); }
+      .keydown.deck-container .slide.full-background.batman {
+        background-image: url(../images/batman.png); }
       .keydown.deck-container .slide.full-background h1 {
         display: inline;
         position: absolute;
