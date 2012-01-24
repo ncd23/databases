@@ -104,8 +104,10 @@ body {
       -webkit-box-pack: start;
       -ms-box-pack: start;
       box-pack: start; }
-      .keydown.deck-container .slide.full-background.test {
-        background-image: url(../images/test.png); }
+      .keydown.deck-container .slide.full-background.mysql-administrator-1 {
+        background-image: url(../images/mysql-administrator-1.jpg); }
+      .keydown.deck-container .slide.full-background.grape-ape {
+        background-image: url(../images/grape-ape.jpg); }
       .keydown.deck-container .slide.full-background h1 {
         display: inline;
         position: absolute;
