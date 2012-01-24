@@ -1,104 +1,131 @@
 # slides
 
-!SLIDE
+!SLIDE left
 
-# Part 1: Web Architecture
+# Databases - 7280
 
-## loffelmr@newschool.edu
+## Building Dynamic, Data-Driven Web Sites
 
-
-!SLIDE
-
-## How the WWW Works
-
-
-### There can be only one (acronym)!
-
+## [loffelmr@newschool.edu](mailto:loffelmr@newschool.edu) | @Loffelmr
 
 
 
 !SLIDE
 
-## The core
+# Syllabus & Pre-requisites & Setup
 
-* HTTP
-* URI
+[The syllabus is available here](http://example.com)
 
-These are pervasive standards, used by all of the web. Except for
-(most) streaming content. Flash uses these, serving up images uses
-these. Serving text and PDFs too.
 
-}}} images/test.png
+
+!SLIDE left
+
+#### Poll
+
+Which two are you most interested in, as far as APIs are concerned?
+
+* Google Charts
+* Tropo
+* Amazon
+* Flickr
+* Facebook
+* Twitter
+* FourSquare
+
+
+
+
+!SLIDE left
+
+## Web Architecture
+
+Let's look at this slide deck. The hope is that these subjects are not completely unknown. 
+
+[Web Architecture Slides](http://www.cs.washington.edu/education/courses/cse190m/07sp/lectures/slides/01-internet.html)
+
+
+
+!SLIDE left
+
+## Tools
+
+* Accounts
+* Text editors
+* Applications
+	* SSH Client
+	* FTP Client
+	* Git Client
+	* Other
+
+
+!SLIDE left
+
+## Accounts
+
+You will need to register for a couple of accounts...
+
+We will be using Github, a fantastic resource. Delivery of source code for homework will be done through Git. You should sign up if you do not have an account already. [Signup over here](https://github.com/signup/free). 
+
+Also sign up for [Amazon's AWS](https://aws.amazon.com) product. We will be using AWS Elastic Cloud Computing offering for this class. You will post your finished work on the Amazon server.
+
+
+!SLIDE left
+
+## Text Editors
+
+For Windows:
+* [Notepad++](http://notepad-plus-plus.org/)
+
+For Mac: 
+* [Textmate](http://macromates.com/)
+* [Coda](http://panic.com/coda/)
+
+Cross Platform: 
+* [Vim](http://www.vim.org/) with [Janus](https://github.com/carlhuda/janus)
+* [Redcar](http://redcareditor.com/) - open-source version of Textmate, requires Ruby [Dreamweaver](http://success.adobe.com/en/na/sem/products/dreamweaver.html?kw=p&sdid=IBERR&skwcid=TC|22173|dreamweaver||S|e|8572726003)
+* [Jedit](http://jedit.org/)
+
+
+
+!SLIDE left
+
+## Other applications: 
+
+SSH Command Line Client: Terminal (Mac), or PuTTy (Windows. Get the full suite of apps.)
+
+FTP Client: Cyberduck (Mac), or Filezilla (cross-platform)
+
+Git Client: Github (Mac) or [msysgit](http://code.google.com/p/msysgit/) (Windows)
+
+
 
 
 !SLIDE
 
-## The helpers
-
-* DNS
-* TCP/IP
-
-DNS is what matches domain names such as [example.com](http://example.com) to IP addresses. 
-
-!NOTES
-
-  * given a domain name you can use ping or tracert to determine it's IP
-    address.
+## Linux
 
 
-!SLIDE
+!SLIDE left
 
-## HTTP
-
-A language which acts through object (URI) and verb pairings.
-
-
-!SLIDE
-
-### The HTTP Verbs
-
-* GET (read)
-* POST (write)
-* DELETE (as advertised)
-* PUT (ignore for now)
-
-
-(Capitalization optional, in some contexts. Usually they're printed this
-way)
-
-
-!SLIDE
-
-GET and POST should be familiar to most. DELETE is more obscure.
-
-
-!SLIDE
-
-# Part 2: Linux
-
-
-!SLIDE
-
-## Why Linux?
+### Why Linux?
 
 1. In the form of Unix, it has been around for thirty years. 
-1. This makes it reliable, there are no secrets as to how it works.
+1. This makes it reliable and predictable. there are no secrets as to how it works.
 1. It is free and under no one person's control (any longer) soooooooo.
-1. Linux is a de-facto standard.
+1. Thus Linux is a standard. The utility belt.
 
-The command line is more expressive. Developing software is largely
-concerned with moving files around and editing them. There are things
-you can do with files on a command line that are available through a
-GUI. 
+}}} images/temp.jpg
 
 !NOTES
 
   * [In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html) by Neal Stephenson
 
 
-!SLIDE
 
-## Cheatsheet:
+
+!SLIDE left
+
+### Cheatsheet:
 
 Available for Download here in these formats:
 [Markdown](https://github.com/the0ther/databases/tree/master/week-1/linux-cheatsheet.md)
@@ -107,7 +134,21 @@ Available for Download here in these formats:
   * this [was cribbed from here](http://www.tuxfiles.org/linuxhelp/linuxcommands.html) with a few additions of my own
 
 
-!SLIDE
+
+
+!SLIDE left
+
+Everything in Linux is a file, with few exceptions.
+
+The filesystem starts here: `/`. This is called _root_. You can type `ls /` to view the contents.
+
+A path in the Linux filesystem looks like `/home/ubuntu`. This particular path is the user "ubuntu"'s home folder.
+
+Mac works like this too. Windows not quite, but close. 
+
+
+
+!SLIDE left
 
 ### Moving around in the file system
 
@@ -119,7 +160,7 @@ Available for Download here in these formats:
 * `cd ..`	Go to the parent directory.
 
 
-!SLIDE
+!SLIDE left
 
 ### Examining files
 
@@ -128,7 +169,7 @@ Available for Download here in these formats:
 * `less`	View text files and paginate them if needed.
 
 
-!SLIDE
+!SLIDE left
 
 ### Manipulating files and directories
 
@@ -145,12 +186,13 @@ Available for Download here in these formats:
 * `rmdir`	Remove an empty directory.
 
 
-!SLIDE
+!SLIDE left
 
 ### Wizardry
 
+* `man` The built-in manual. Add any command after for more info. Example: `man chmod`
 * `grep` Searches for a term that you pass. Can pipe input in or name a
-  file (with wildcars).
+  file (with wildcards). Example: `grep -r -i -n "needle" ./haystack/*`, searches all files under the ./haystack directory (-r or --recursive) for the string "needle", without regard to case (-i). Results show the line number (-n).
 * `sudo` Run command as root user (Debian/Ubuntu)
 * Job Control
   * `ps` List running processes
@@ -165,9 +207,82 @@ Available for Download here in these formats:
 
 
 
-!SLIDE
+!SLIDE left
 
 ### Bash/Zsh
 
 If you want to learn more about Bash scripting you [should start
 here](http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html).
+
+Zsh (Zee Shell) is a more modern shell. There is a project called Oh-my-Zsh, I encourage you to install this wherever you use the terminal. 
+
+
+!SLIDE
+
+### Git 
+
+Never lose your work.
+
+Created by Linus Torvalds, the original author of Linux.
+
+Distributed revision control.
+
+
+
+!SLIDE left
+
+#### Clone 
+
+For getting a local copy of a remote repository.
+
+* `git clone https://github.com/h5bp/html5-boilerplate.git`
+
+#### Status
+
+To see what files are dirty, which ones are staged for commit, and to find out what branch you are currently on
+
+* `git status` 
+
+#### Help
+
+Any command in git can be prefixed with "help" to read more info about usage. 
+
+`git help branch`
+
+
+
+
+!SLIDE left
+
+For now, you will use a very small set of the Git commands. 
+
+* `git add`
+* `git commit -a`
+* `git push origin master`
+
+For more on Git read the [tutorial on Github](http://help.github.com/).
+
+
+
+!SLIDE left
+
+## Amazon EC2
+
+* Create keys (Public key cryptography as an aside)
+* Install the following
+	* any updates
+	* lamp
+	* mongodb
+	* ruby?
+	* git
+	* srm.sh
+
+
+
+
+!SLIDE left
+
+## Reading Assignment
+
+* [Front End Code Standards & Best Practices](http://na.isobar.com/standards/)
+* []()

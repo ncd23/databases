@@ -1,10 +1,10 @@
-# Databases: PHP/MySQL/Javascript
+# Databases: Building Dynamic Websites
 
-Spring 2011
+Spring 2012
 
-Wednesdays, 12:00 PM - 2:40 PM
+Tuesdays, 6pm - 8:40pm
 
-55 W13th Room 303
+2 W13th Room 1108
 
 ### Instructor
 
@@ -14,7 +14,7 @@ Wednesdays, 12:00 PM - 2:40 PM
 
 ## Course Description
 
-This course will teach you how to build dynamic websites. We will explore how you can use PHP and MySQL to turn your concepts into reality. We will be learning about a variety of open-source technologies, which when used together comprise an end-to-end online application. Instruction will attempt to take a pragmatic approach to the topic, and student interests will to some extent influence the topics we cover.
+This course will teach you how to build dynamic websites. We will explore how you can use PHP and MySQL, as well as Node.js and MongoDb to build web applications. We will be learning about a variety of open-source technologies along the way. Student interests will to some extent influence the topics we cover, and students are encouraged to bring any outside projects which apply to the subject matter.
 
 
 
@@ -31,9 +31,10 @@ This course will teach you how to build dynamic websites. We will explore how yo
 * You must not plagiarize. You are allowed to use code you find online. I have learned a great deal myself by finding online examples and incorporating them into my work. However, this is a gray area, and the discretion is mine, as to what enters into the realm of plagiarism. Please indicate your online sources in the comments to your program, and be able to explain what is going on in any snippet of code you borrow. This alone should be sufficient to avoid any issues.
 
 
+
 ## Grading and Homework
 
-Assignments will be due at the beginning of the following class. Homework must be fully-working. Assignments will be scored in the following manner: ⅓ credit is given for functionality, ⅓ credit is given for solving the problem outlined in the assignment, and another ⅓ credit applies for presentation (design) when applicable. Some assignments will have no real points for presentation, these assignments will require you submit a text file as your answer. These will split credit ½ for functioning, ½ for solving.
+Assignments will be due at the beginning of the following class. Homework must be fully-working. Assignments will be scored in the following manner: ⅓ credit is given for functionality, ⅓ credit is given for solving the problem outlined in the assignment, and another ⅓ credit applies for presentation (design) when applicable. Some assignments will have no real points for presentation, these assignments will require you submit a text file as your answer. These will split credit ½ for functioning, ½ for solutions.
 
 Make sure your homework runs. I cannot stress this enough. After all, this is a class about computer programming and successful compilation is the fundamental quality of good code.
 
@@ -41,11 +42,16 @@ You have one get-out-of-jail card on homework assignments. This means that if yo
 
 The final project that will be assigned will require pulling together all the knowledge you have accrued through the course and implementing a fully functional program.  You'll be able to come up with the overall concept yourself.  But, you'll be expected to lay out a set of specifications and the project will be judged based on the same criteria as homework assignments.
 
-Readings: there will be a variety of reading assigned for the first few weeks. The expectation is that you will have read the material ahead of class, so everyone is prepared with questions to discuss. This comes into play in the participation aspect of your grade. 
+
+
+## Readings 
+
+There will be a variety of reading assigned for the first few weeks. The expectation is that you will have read the material ahead of class, so everyone is prepared with questions to discuss. This comes into play in the participation aspect of your grade. 
 
 
 
 ## Grades
+
 Your grade for the course will be determined as follows:
 
 * Participation
@@ -62,142 +68,92 @@ Your grade for the course will be determined as follows:
 
 ### Week 1 (Jan 24)
 
-#### Intro
-
-#### Tools
-
-#### Terms
-* Vim
-* Gedit
-* Coda
-* Textmate
-* Redcar
-* Notepad++
-
-#### Git
-
-#### Terms
-* Working Copy
-* Repository
-* Local
-* Remote
-* Source Control
-
-#### Linux Tutorial
-
-
-#### Setup EC2 Server
-* [Create AWS account](http://aws.amazon.com)
-* Create keys (Public key cryptography as an aside)
-* Install the following
-	* any updates
-	* lamp
-	* mongodb
-	* ruby?
-	* git
-	* srm.sh	
-
-#### Poll
-
-Which two are you most interested in, as far as APIs are concerned?
-
-* Google Charts
-* Tropo
-* Amazon
-* Flickr
-* Facebook
-* Twitter
-* FourSquare
-
+* Intro
 
 
 ### Week 2 (Jan 31)
 
-#### Web Architecture
-
-#### Resources
-
-* [Web Architecture](http://www.cs.washington.edu/education/courses/cse190m/07sp/lectures/slides/01-internet.html) 
-
-### HTML5
+* Web Architecture
+* HTML5
 
 
 
 ### Week 3 (Feb 7)
 
-#### Javascript, jQuery, and Ajax)
+* Javascript, jQuery, and Ajax)
 
 
 ### Week 4 (Feb 14)
 
-#### Relational Databases Overview
+* Relational Databases Overview
 
 
 
 ### Week 5 (Feb 21)
 
-#### Relational Databases Pt 2
+* Relational Databases Pt 2
 
 
 
 
 ### Week 6 (Feb 28)
 
-#### PHP & MySQL Pt 1
+* PHP & MySQL Pt 1
 
 
 
 
 ### Week 7 (Mar 6)
 
-#### PHP & MySQL Pt 2
+* PHP & MySQL Pt 2
 
 
 
 
 ### Week 8 (Mar 20)
 
+* 
 
 
 ### Week 9 (Mar 27)
 
-#### Mongo DB
-
+* Mongo DB
 
 
 
 ### Week 10 (Apr 3)
 
-#### PHP & Mongo DB
+* PHP & Mongo DB
 
 
 
 ### Week 11 (Apr 10)
 
-#### Node.js & Mongo DB Pt 1
+* Node.js & Mongo DB Pt 1
 
 
 
 ### Week 12 (Apr 17)
 
+* Node.js && Mongo DB Pt 2
 
-#### Node.js && Mongo DB Pt 2
 
 
 ### Week 13 (Apr 24)
 
-### Node.js & Facebook
+* Node.js & Facebook
 
 
 
 ### Week 14 (May 1)
 
-#### Work on Projects
+* Work on Projects
+
 
 
 ### Week 15 (May 8)
 
-#### Presentations
+* Presentations
 
 
 
