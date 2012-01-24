@@ -6,7 +6,7 @@
 
 ## Building Dynamic, Data-Driven Web Sites
 
-## [loffelmr@newschool.edu](mailto:loffelmr@newschool.edu) | @Loffelmr
+## [loffelmr@newschool.edu]<mailto:loffelmr@newschool.edu> | @Loffelmr
 
 
 
@@ -262,20 +262,20 @@ For now, you will use a very small set of the Git commands.
 
 For more on Git read the [tutorial on Github](http://help.github.com/).
 
-
+For _even more_ [read this](http://danielmiessler.com/study/git/).
 
 !SLIDE left
 
 ## Amazon EC2
 
-* Create keys (Public key cryptography as an aside)
+* [Create keys](http://help.github.com/mac-set-up-git/)
 * Install the following
-	* any updates
-	* lamp
-	* mongodb
-	* ruby?
-	* git
-	* srm.sh
+	* `sudo apt-get update`
+	* `sudo tasksel` to install LAMP
+	* `sudo apt-get install mongodb`
+	* `sudo apt-get install ruby`
+	* `sudo apt-get install git`
+	* rm.sh and update your .bashrc to use the `trash` command
 
 
 
@@ -284,5 +284,9 @@ For more on Git read the [tutorial on Github](http://help.github.com/).
 
 ## Reading Assignment
 
+* [HTML/CSS/Javascript Tutorial](http://code.google.com/edu/submissions/html-css-javascript/)
 * [Front End Code Standards & Best Practices](http://na.isobar.com/standards/)
+
+### Recommended Reading
+
 * [In the Beginning Was the Command Line](http://www.cryptonomicon.com/beginning.html) by Neal Stephenson

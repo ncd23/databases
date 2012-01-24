@@ -1,10 +1,8 @@
 # Databases: Building Dynamic Websites
 
 Spring 2012
-
 Tuesdays, 6pm - 8:40pm
-
-2 W13th Room 1108
+2 W 13th Room 1108
 
 ### Instructor
 
@@ -14,7 +12,7 @@ Tuesdays, 6pm - 8:40pm
 
 ## Course Description
 
-This course will teach you how to build dynamic websites. We will explore how you can use PHP and MySQL, as well as Node.js and MongoDb to build web applications. We will be learning about a variety of open-source technologies along the way. Student interests will to some extent influence the topics we cover, and students are encouraged to bring any outside projects which apply to the subject matter.
+This course will teach you how to build dynamic websites. We will explore how you can use PHP and MySQL, as well as Node.js and MongoDb to build web applications. We will be learning about a variety of open-source technologies along the way. Student interests will to some extent influence the topics we cover, and students are encouraged to bring any outside projects which are relevant.
 
 
 
@@ -28,7 +26,7 @@ This course will teach you how to build dynamic websites. We will explore how yo
 
 * Bring your other projects to class. It's always helpful to see how topics covered in those classes apply to your other projects.
 
-* You must not plagiarize. You are allowed to use code you find online. I have learned a great deal myself by finding online examples and incorporating them into my work. However, this is a gray area, and the discretion is mine, as to what enters into the realm of plagiarism. Please indicate your online sources in the comments to your program, and be able to explain what is going on in any snippet of code you borrow. This alone should be sufficient to avoid any issues.
+* You must not plagiarize. You are allowed to use code you find online. I have learned a great deal myself by finding online examples and incorporating them into my work. However, this is a gray area, and the discretion is mine, as to what enters into the realm of plagiarism. Please indicate your online sources in the comments to your program, and be able to explain what is going on in any piece of code you borrow. This alone should be sufficient to avoid any issues.
 
 
 
@@ -64,11 +62,13 @@ Your grade for the course will be determined as follows:
 	* 25%
 
 
+
 ## Course Outline
 
 ### Week 1 (Jan 24)
 
 * Intro
+
 
 
 ### Week 2 (Jan 31)
@@ -80,7 +80,8 @@ Your grade for the course will be determined as follows:
 
 ### Week 3 (Feb 7)
 
-* Javascript, jQuery, and Ajax)
+* Javascript, jQuery, and Ajax
+
 
 
 ### Week 4 (Feb 14)
@@ -95,11 +96,9 @@ Your grade for the course will be determined as follows:
 
 
 
-
 ### Week 6 (Feb 28)
 
 * PHP & MySQL Pt 1
-
 
 
 
@@ -109,10 +108,10 @@ Your grade for the course will be determined as follows:
 
 
 
-
 ### Week 8 (Mar 20)
 
-* 
+* Security Workshop with [Gruyere](http://google-gruyere.appspot.com/)
+
 
 
 ### Week 9 (Mar 27)
@@ -161,22 +160,26 @@ Your grade for the course will be determined as follows:
 
 All reading is online. There are no required textbooks. Everything we need is online. These links all point to the official manuals or the language reference. They are very technical, there are cheat-sheets available online for all of these. Find one you like.
 
+### Stack Overflow <http://stackoverflow.com>
+
+If you have not visited this website before, you really should take a look.
+
+The software which runs Stack Overflow has been generalized to support any number of communities. One which may be particularly useful for our purposes is the [Database Administrators](http://dba.stackexchange.com/) site.
+
+
 ### Online References
 
-* [Stack Overflow](http://stackoverflow.com)
-* [Github](http://github.com)
 * [MySql Docs](http://dev.mysql.com/doc/)
 * [PHP](http://php.net/docs.php)
 * [MongoDB](http://mongodb.com)
 * [NodeJs](http://nodejs.org)
 * [jQuery](http://docs.jquery.com/Main_Page)
 * Javascript: there is No True Javascript, there are flavors:
-	* [Mozilla Javascript](https://developer.mozilla.org/en/JavaScript)
 	* [ECMAScript](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf)
+	* [Mozilla Javascript](https://developer.mozilla.org/en/JavaScript)
 	* [Microsoft’s JScript](http://msdn.microsoft.com/en-us/library/yek4tbz0\(VS.85\).aspx)
-	* [The Best Javascript Cheatsheet Around](http://www.dannyg.com/ref/jsquickref.html)
-	* [CSS 2.1](http://www.w3.org/TR/CSS21/)
-	* [CSS 3](http://www.w3.org/TR/CSS/)
+* [CSS 2.1](http://www.w3.org/TR/CSS21/)
+* [CSS 3](http://www.w3.org/TR/CSS/)
 
 
 ### Books
