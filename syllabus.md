@@ -160,15 +160,10 @@ Your grade for the course will be determined as follows:
 
 All reading is online. There are no required textbooks. Everything we need is online. These links all point to the official manuals or the language reference. They are very technical, there are cheat-sheets available online for all of these. Find one you like.
 
-### Stack Overflow <http://bit.ly/ziqUpx>
-
-If you have not visited this website before, you really should take a look.
-
-The software which runs Stack Overflow has been generalized to support any number of communities. One which may be particularly useful for our purposes is the [Database Administrators](http://bit.ly/yMRvy3) site.
-
 
 ### Online References
 
+* [StackOverflow.com](http://bit.ly/ziqUpx)
 * [MySql Docs](http://bit.ly/AdkGat)
 * [PHP](http://bit.ly/xEgiEK)
 * [MongoDB](http://bit.ly/xsMJdE)
@@ -184,17 +179,10 @@ The software which runs Stack Overflow has been generalized to support any numbe
 
 ### Books
 
-If you like books, I find the following to be more-or-less indispensable:
-
-* MySQL Pocket Reference, 2nd Edition By George Reese
-* CSS Pocket Reference, 3rd Edition By Eric A. Meyer
-* JavaScript Pocket Reference, 2nd Edition By David Flanagan
-* jQuery Pocket Reference, First Edition By David Flanagan
-
-All these pocket books are great, the full versions offer greater detail. Cute covers.
-* [Eloquent JavaScript by Marijn Haverbeke](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593272820/ref=wl_it_dp_o_npd?ie=UTF8&coliid=I17W017YSYCOYN&colid=1JTKIJ9SN6Y0K)
-* [Learning PHP, MySQL, and JavaScript, First Edition By Robin Nixon]
-* The Art of Unix Programming By Eric Raymond
-
-
-> "Those who don’t know about Unix will be condemned to reinvent it poorly."
+* [jQuery in Action, Second Edition by Bear Bibeault](http://amzn.to/xk9yKJ)
+* [The Art of Unix Programming By Eric Raymond](http://amzn.to/wVeebv)
+* [MySQL Pocket Reference, 2nd Edition By George Reese](http://amzn.to/AvMnpA)
+* [CSS Pocket Reference, 3rd Edition By Eric A. Meyer](http://amzn.to/xZUwVC)
+* [JavaScript Pocket Reference, 2nd Edition By David Flanagan](http://amzn.to/AiCo5W)
+* [Eloquent JavaScript by Marijn Haverbeke](http://amzn.to/z7RiOc)
+* [Learning PHP, MySQL, and JavaScript, First Edition By Robin Nixon](http://amzn.to/ztGp6F)
