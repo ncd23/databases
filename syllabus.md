@@ -6,7 +6,7 @@ Tuesdays, 6pm - 8:40pm
 
 ### Instructor
 
-### Randy Loffelmacher | loffelmr@newschool.edu
+### Randy Loffelmacher | <loffelmr@newschool.edu>
 
 
 
@@ -110,7 +110,7 @@ Your grade for the course will be determined as follows:
 
 ### Week 8 (Mar 20)
 
-* Security Workshop with [Gruyere](http://google-gruyere.appspot.com/)
+* Security Workshop with [Gruyere](http://bit.ly/AzvKKt)
 
 
 
@@ -160,31 +160,31 @@ Your grade for the course will be determined as follows:
 
 All reading is online. There are no required textbooks. Everything we need is online. These links all point to the official manuals or the language reference. They are very technical, there are cheat-sheets available online for all of these. Find one you like.
 
-### Stack Overflow <http://stackoverflow.com>
+### Stack Overflow <http://bit.ly/ziqUpx>
 
 If you have not visited this website before, you really should take a look.
 
-The software which runs Stack Overflow has been generalized to support any number of communities. One which may be particularly useful for our purposes is the [Database Administrators](http://dba.stackexchange.com/) site.
+The software which runs Stack Overflow has been generalized to support any number of communities. One which may be particularly useful for our purposes is the [Database Administrators](http://bit.ly/yMRvy3) site.
 
 
 ### Online References
 
-* [MySql Docs](http://dev.mysql.com/doc/)
-* [PHP](http://php.net/docs.php)
-* [MongoDB](http://mongodb.com)
-* [NodeJs](http://nodejs.org)
-* [jQuery](http://docs.jquery.com/Main_Page)
+* [MySql Docs](http://bit.ly/AdkGat)
+* [PHP](http://bit.ly/xEgiEK)
+* [MongoDB](http://bit.ly/xsMJdE)
+* [NodeJs](http://bit.ly/wc6COf)
+* [jQuery](http://bit.ly/wp797w)
 * Javascript: there is No True Javascript, there are flavors:
-	* [ECMAScript](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-262.pdf)
-	* [Mozilla Javascript](https://developer.mozilla.org/en/JavaScript)
-	* [Microsoft’s JScript](http://msdn.microsoft.com/en-us/library/yek4tbz0\(VS.85\).aspx)
-* [CSS 2.1](http://www.w3.org/TR/CSS21/)
-* [CSS 3](http://www.w3.org/TR/CSS/)
+	* [ECMAScript](http://bit.ly/xbrOno)
+	* [Mozilla Javascript](http://mzl.la/xkaA1m)
+	* [Microsoft’s JScript](http://bit.ly/AdzCbX)
+* [CSS 2.1](http://bit.ly/xkyKSU)
+* [CSS 3](http://bit.ly/wtdv2N)
 
 
 ### Books
 
-If you like books, I find the following to be more-or-less indispensible:
+If you like books, I find the following to be more-or-less indispensable:
 
 * MySQL Pocket Reference, 2nd Edition By George Reese
 * CSS Pocket Reference, 3rd Edition By Eric A. Meyer
@@ -192,7 +192,7 @@ If you like books, I find the following to be more-or-less indispensible:
 * jQuery Pocket Reference, First Edition By David Flanagan
 
 All these pocket books are great, the full versions offer greater detail. Cute covers.
-
+* [Eloquent JavaScript by Marijn Haverbeke](http://www.amazon.com/Eloquent-JavaScript-Modern-Introduction-Programming/dp/1593272820/ref=wl_it_dp_o_npd?ie=UTF8&coliid=I17W017YSYCOYN&colid=1JTKIJ9SN6Y0K)
 * [Learning PHP, MySQL, and JavaScript, First Edition By Robin Nixon]
 * The Art of Unix Programming By Eric Raymond
 

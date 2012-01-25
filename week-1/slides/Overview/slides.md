@@ -18,7 +18,7 @@
 
 # Syllabus & Pre-requisites & Setup
 
-## [The syllabus is available here](http://example.com)
+## [The syllabus is available here](https://docs.google.com/document/pub?id=1vdSsIuqBSbMsENKgWvOUksY_BOv2srJ_3jj7iSDynEU)
 
 
 
