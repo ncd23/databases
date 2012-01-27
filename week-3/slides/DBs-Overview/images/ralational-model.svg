@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="543"
+   height="540"
+   id="svg2">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         id="path3967"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+  </defs>
+  <g
+     id="layer2"
+     style="display:inline">
+    <text
+       x="112.44009"
+       y="29.387104"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3007"
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#8c85ae;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="111.97911"
+         y="29.387104"
+         id="tspan3009">Relational Model</tspan></text>
+    <text
+       x="153.84438"
+       y="122.18746"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3011"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="153.38339"
+         y="122.18746"
+         id="tspan3013">Patching</tspan></text>
+    <text
+       x="150.90204"
+       y="154.95068"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3015"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="150.44106"
+         y="154.95068"
+         id="tspan3017">Overlay</tspan></text>
+    <text
+       x="175.54272"
+       y="189.34862"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3019"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="175.08176"
+         y="189.34862"
+         id="tspan3021">Crack Sealing</tspan></text>
+    <text
+       x="53.994026"
+       y="122.17352"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3023"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="53.533051"
+         y="122.17352"
+         id="tspan3025">23</tspan></text>
+    <text
+       x="53.994026"
+       y="155.03857"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3027"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="53.533051"
+         y="155.03857"
+         id="tspan3029">24</tspan></text>
+    <text
+       x="53.994026"
+       y="188.95532"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3031"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="53.533051"
+         y="188.95532"
+         id="tspan3033">25</tspan></text>
+    <text
+       x="358.24017"
+       y="188.8452"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3035"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="357.77921"
+         y="188.8452"
+         id="tspan3037">Key = 24</tspan></text>
+    <text
+       x="338.32095"
+       y="274.31284"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3039"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="337.85999"
+         y="274.31284"
+         id="tspan3041">24</tspan></text>
+    <text
+       x="338.32095"
+       y="306.58124"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3043"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="337.85999"
+         y="306.58124"
+         id="tspan3045">24</tspan></text>
+    <text
+       x="433.87891"
+       y="272.6022"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3047"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="433.41794"
+         y="272.6022"
+         id="tspan3049">01/12/01</tspan></text>
+    <text
+       x="433.87891"
+       y="304.87057"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3051"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="433.41794"
+         y="304.87057"
+         id="tspan3053">02/08/01</tspan></text>
+    <text
+       x="504.17126"
+       y="274.05176"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3055"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="503.7103"
+         y="274.05176"
+         id="tspan3057">I-95</tspan></text>
+    <text
+       x="503.51929"
+       y="306.32013"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3059"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="503.05832"
+         y="306.32013"
+         id="tspan3061">I-66</tspan></text>
+    <text
+       x="128.4787"
+       y="402.58429"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3063"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="128.01772"
+         y="402.58429"
+         id="tspan3065">24</tspan></text>
+    <text
+       x="57.726185"
+       y="400.87366"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3067"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="57.265209"
+         y="400.87366"
+         id="tspan3069">01/12/01</tspan></text>
+    <text
+       x="217.42819"
+       y="402.32321"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3071"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="216.96721"
+         y="402.32321"
+         id="tspan3073">I-95</tspan></text>
+    <text
+       x="129.78255"
+       y="468.71417"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3075"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="129.32156"
+         y="468.71417"
+         id="tspan3077">24</tspan></text>
+    <text
+       x="59.030029"
+       y="467.00351"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3079"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="58.569054"
+         y="467.00351"
+         id="tspan3081">02/08/01</tspan></text>
+    <text
+       x="217.42819"
+       y="468.45306"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3083"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="216.96721"
+         y="468.45306"
+         id="tspan3085">I-66</tspan></text>
+    <text
+       x="129.13063"
+       y="436.77106"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3087"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="128.66965"
+         y="436.77106"
+         id="tspan3089">23</tspan></text>
+    <text
+       x="58.378109"
+       y="435.3215"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3091"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="57.917133"
+         y="435.3215"
+         id="tspan3093">01/15/01</tspan></text>
+    <text
+       x="222.83748"
+       y="436.77106"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3095"
+       xml:space="preserve"
+       style="font-size:18.43908882px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"><tspan
+         x="222.3765"
+         y="436.77106"
+         id="tspan3097">I-495</tspan></text>
+    <text
+       x="414.96509"
+       y="241.34319"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3099"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="414.50412"
+         y="241.34319"
+         id="tspan3101">Date</tspan></text>
+    <text
+       x="523.66589"
+       y="241.34319"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3103"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="523.2049"
+         y="241.34319"
+         id="tspan3105">Route No.</tspan></text>
+    <text
+       x="347.42514"
+       y="224.0489"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3107"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="346.96417"
+         y="224.0489"
+         id="tspan3109">Activity</tspan></text>
+    <text
+       x="337.54294"
+       y="241.34319"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3111"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="337.08197"
+         y="241.34319"
+         id="tspan3113">Code</tspan></text>
+    <text
+       x="145.71335"
+       y="349.86951"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3115"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="145.25237"
+         y="349.86951"
+         id="tspan3117">Activity</tspan></text>
+    <text
+       x="135.83115"
+       y="367.16379"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3119"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="135.37016"
+         y="367.16379"
+         id="tspan3121">Code</tspan></text>
+    <text
+       x="235.28706"
+       y="367.16379"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3123"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="234.82608"
+         y="367.16379"
+         id="tspan3125">Route No.</tspan></text>
+    <text
+       x="39.152241"
+       y="367.18997"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3127"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="38.691265"
+         y="367.18997"
+         id="tspan3129">Date</tspan></text>
+    <text
+       x="53.677547"
+       y="71.499573"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3131"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="53.216572"
+         y="71.499573"
+         id="tspan3133">Activity</tspan></text>
+    <text
+       x="52.23196"
+       y="88.793854"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3135"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="51.770981"
+         y="88.793854"
+         id="tspan3137">Code</tspan></text>
+    <text
+       x="144.94638"
+       y="71.499573"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3139"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="144.4854"
+         y="71.499573"
+         id="tspan3141">Activity</tspan></text>
+    <text
+       x="138.13203"
+       y="88.793854"
+       transform="scale(0.92195444,1.0846523)"
+       id="text3143"
+       xml:space="preserve"
+       style="font-size:14.75127125px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:-0.92195445px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"><tspan
+         x="137.67105"
+         y="88.793854"
+         id="tspan3145">Name</tspan></text>
+    <path
+       d="m 257.5,215.5 0,-157 -244,0 0,157"
+       id="path3149"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 13,215 245,0"
+       id="path3151"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 13,106.5 244,0"
+       id="path3921"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 13,141.5 244,0"
+       id="path3923"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 13,178.5 244,0"
+       id="path3925"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 92.5,58 0,157"
+       id="path3927"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 13.5,517.5 0,-156 243,0 0,156"
+       id="path3929"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 92.5,362 0,154"
+       id="path3931"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 173.5,362 0,154"
+       id="path3933"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 14,408.5 242,0"
+       id="path3935"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 14,443.5 242,0"
+       id="path3937"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 14,480.5 242,0"
+       id="path3939"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 14,517 242,0"
+       id="path3941"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 284.5,341.5 0,-118 238,0 0,118 -238,0"
+       id="path3943"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 360.5,224 0,117"
+       id="path3945"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 445.5,224 0,117"
+       id="path3947"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 285,271.5 237,0"
+       id="path3949"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 285,306.5 237,0"
+       id="path3951"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="m 285,343.5 237,0"
+       id="path3955"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="M 256.5,361.5 284,252"
+       id="path3957"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    <path
+       d="M 257,80.000001 283.5,221"
+       id="path3959"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+  </g>
+</svg>
